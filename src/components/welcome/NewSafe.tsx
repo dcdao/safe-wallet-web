@@ -24,17 +24,16 @@ const NewSafe = () => {
         <Grid item xs={12} lg={6} flex={1}>
           <div className={css.content}>
             <Typography variant="h1" fontSize={[44, null, 52]} lineHeight={1} letterSpacing={-1.5} color="static.main">
-              Unlock a new way of ownership
+              Welcome to DSafe
             </Typography>
 
             <Typography mb={1} color="static.main">
-              The most trusted decentralized custody protocol and collective asset management platform.
+              This multi-signature wallet is a version of Gnosis Safe forked by the Darwinia Community DAO.
             </Typography>
 
             <ul className={css.bulletList}>
               <BulletListItem text="Stealth security with multiple signers" />
               <BulletListItem text="Make it yours with modules and guards" />
-              <BulletListItem text="Access 130+ ecosystem apps" />
             </ul>
           </div>
         </Grid>
